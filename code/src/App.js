@@ -20,7 +20,9 @@ export const App = () => {
         {albumsArray.map((album) => {
           return (
             <>
-              <Image/>
+              <Image
+              imgsrc={album.images[1].url}/>
+              
               <Album 
                 key={album.name}
                 
